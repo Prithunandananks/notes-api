@@ -1,0 +1,32 @@
+# Cache and temp files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Databases and Local uploads
+*.db
+*.sqlite
+uploads/
+data/
+
+# Environments and Secrets
+.env
+.env.local
+
+# Git and IDE configs
+.git/
+.gitignore
+.idea/
+.vscode/
